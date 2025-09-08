@@ -1,1 +1,70 @@
-<p> Kishan hyalij </p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fitness Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="logo">F T<br>L I F E</div>
+      <nav>
+        <ul>
+          <li class="active">Dashboard</li>
+          <li>Workout</li>
+          <li>Diet</li>
+          <li>Progress</li>
+          <li>Settings</li>
+        </ul>
+      </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <!-- Header -->
+      <header class="header">
+        <input type="text" placeholder="Search..." />
+        <button class="week-btn">This Week</button>
+        <div class="user-icon">👤</div>
+      </header>
+
+      <!-- Welcome Text -->
+      <h1 class="welcome">Welcome Back Riya!</h1>
+
+      <!-- Dashboard Cards -->
+      <section class="dashboard-cards">
+        <div class="card yellow">
+          <h3>Workouts completed</h3>
+          <p>12 <span>this week</span></p>
+        </div>
+        <div class="card orange">
+          <h3>Calories Burned</h3>
+          <p>3,450 <span>kcal</span></p>
+        </div>
+        <div class="card red">
+          <h3>Active Days</h3>
+          <p>5/7 <span>this week</span></p>
+        </div>
+        <div class="card blue">
+          <h3>Water Intake</h3>
+          <p>12 <span>glasses</span></p>
+        </div>
+      </section>
+
+      <!-- Placeholder for Chart, Diet Plan, etc. -->
+      <section class="bottom-section">
+        <div class="box large">📈 Weekly Calories Burned (Chart)</div>
+        <div class="box">🥗 Diet Plan</div>
+        <div class="box">🔥 Achievements</div>
+        <div class="box green">✅ Workout Summary</div>
+        <div class="box">📅 Upcoming Schedule</div>
+        <div class="box purple">🎯 Next Goal</div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
